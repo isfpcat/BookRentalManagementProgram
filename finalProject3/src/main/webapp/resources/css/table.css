@@ -1,0 +1,27 @@
+  .board-container {
+      width: 60%;
+      height: 1200px;
+      margin: 0 auto;
+    }
+        table {
+      border-collapse: collapse;
+      width: 100%;
+      border-top: 2px solid rgb(39, 39, 39);
+    }
+    tr:nth-child(even) {
+      background-color: #f0f0f070;
+    }
+    th,
+    td {
+      width:300px;
+      text-align: center;
+      padding: 10px 12px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    td {
+      color: rgb(53, 53, 53);
+    }
+    td.id:hover {
+      text-decoration: underline;
+    }
